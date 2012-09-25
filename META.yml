@@ -1,0 +1,12 @@
+name:                Facter
+version:             1.00
+abstract:            collect facts about operating system
+license:             perl
+distribution_type:   module
+requires:
+  Pfacter:       0
+  POSIX:         0
+  Getopt::Long:  0
+  YAML:          0
+author:
+  - Stanislaw Klekot <cpan@jarowit.net>
