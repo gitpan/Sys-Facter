@@ -27,7 +27,7 @@ my %opts = (
 
 my $result = GetOptions(
   "help|h"        => \$opts{help},
-  "modules|m=s@"  => \$opts{modules},
+  "modules|m=s@"  =>  $opts{modules},
   "yaml"          => \$opts{yaml},
 );
 
